@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Blue+</string>
+    <string name="action_settings">Cerrar sesión</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="btnRegistro">Regístrate</string>
+    <string name="btnCancelar">Cancelar</string>
+    <string name="hintCorreo">E-mail</string>
+    <string name="hintContra">Contraseña</string>
+    <string name="hintUsuario">Usuario</string>
+
+    <string name="btnEntrar">Entrar</string>
+    <string name="tvRegistro">¿NO TIENES CUENTA?</string>
+
+    <string name="toastEmailVacio">El email está vacío</string>
+    <string name="toastContraVacia">La contraseña debe tener mínimo 6 caracteres</string>
+    <string name="toastFechaVacia">La fecha debe ser definida</string>
+    <string name="toastPrecioVacia">Se debe de establecer un precio</string>
+    <string name="toastNumPlazasVacia">Introduzca el número de plazas</string>
+    <string name="toastUsuarioVacio">La contraseña debe tener mínimo 6 caracteres</string>
+    <string name="toastMal">Email o contraseña erroneos</string>
+    <string name="bluem">BlUEM</string>
+    <string name="subtitulo">Comparte coche</string>
+
+    <string name="etOrigenhint">Origen</string>
+    <string name="etDestinohint">Destino</string>
+    <string name="etNumeroPlazashint">Número de plazas</string>
+    <string name="btnPublicar">Publicar</string>
+    <string name="toastOrigenVacio">El origen está vacío</string>
+    <string name="toastDestinoVacio">El destino está vacío</string>
+    <string name="etFecha">Fecha</string>
+    <string name="ethintHora">Hora</string>
+    <string name="etPrecio">Precio</string>
+
+    <string name="etOrigenItem">Origen:</string>
+    <string name="etDestinoItem">Destino:</string>
+    <string name="etNumPlazasItem">Nº plazas:</string>
+    <string name="etFecha1Item">Fecha:</string>
+
+    <string name="textoDestino">Destino</string>
+    <string name="textoOrigen">Origen</string>
+    <string name="textoFecha">Fecha</string>
+    <string name="numeroPlazas">Número de plazas</string>
+    <string name="precio">Precio</string>
+    <string name="btnReserva">Reservar</string>
+    <string name="PlazasReservar">Plazas a reservar</string>
+    <string name="ContadorMas">+</string>
+    <string name="ContadorMenos">-</string>
+
+
+    <string name="toastMuchasPlazas">No hay suficientes plazas</string>
+    <string name="toastMenosPlazas">Debe reservar mínimo 1 plaza</string>
+
+    <string name="toastViajeCompleto">Viaje completo</string>
+    <string name="toastPropioViaje">No puedes reservar tu propio viaje</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

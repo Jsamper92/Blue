@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_reserva_viaje"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ruben.blue.ReservaViaje">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:id="@+id/textDestino"
+        android:text="@string/textoDestino"
+        android:layout_below="@+id/textoOrigen"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textDestino"
+        android:layout_toRightOf="@+id/textDestino"
+        android:layout_toEndOf="@+id/textDestino"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:id="@+id/tvDestinoReserva" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textoOrigen"
+        android:id="@+id/textoOrigen"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvOrigenReserva"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textoOrigen"
+        android:layout_toEndOf="@+id/textoOrigen" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textoFecha"
+        android:id="@+id/textFecha"
+        android:layout_below="@+id/textDestino"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="29dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvFechaReserva"
+        android:layout_alignTop="@+id/textFecha"
+        android:layout_toRightOf="@+id/textFecha"
+        android:layout_toEndOf="@+id/textFecha" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numeroPlazas"
+        android:id="@+id/textNumeroPlazas"
+        android:layout_below="@+id/textFecha"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="28dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNumeroPlazasReserva"
+        android:layout_alignTop="@+id/textNumeroPlazas"
+        android:layout_toEndOf="@+id/textNumeroPlazas"
+        android:layout_toRightOf="@+id/textNumeroPlazas" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/precio"
+        android:id="@+id/textPrecio"
+        android:layout_below="@+id/textNumeroPlazas"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="28dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPrecioReserva"
+        android:layout_alignTop="@+id/textPrecio"
+        android:layout_marginLeft="10dp"
+        android:layout_toLeftOf="@+id/tvDestinoReserva"
+        android:layout_toRightOf="@+id/textDestino"
+        android:layout_toEndOf="@+id/textDestino" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textPlazasReservar"
+        android:text="@string/PlazasReservar"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="40sp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/etNumPlazasReservar"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnReserva"
+        android:id="@+id/btnReservar"
+        android:layout_below="@+id/tvPrecioReserva"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"
+        android:onClick="reservar" />
+
+</RelativeLayout>

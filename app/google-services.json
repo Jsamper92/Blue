@@ -1,0 +1,45 @@
+{
+  "project_info": {
+    "project_number": "185870701264",
+    "firebase_url": "https://blue-plus.firebaseio.com",
+    "project_id": "blue-plus",
+    "storage_bucket": "blue-plus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185870701264:android:5a83c43345b8080e",
+        "android_client_info": {
+          "package_name": "com.example.ruben.blue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "185870701264-1u81s6886ncm4usuvl8o61f8d8v865k0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1NjGvHa-ISkiq-0la9DGqVGhWXQltQwY"
+        },
+        {
+          "current_key": "AIzaSyDCCzLBCZgnxZKCPjr2boUQNIbeRngWW3s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
